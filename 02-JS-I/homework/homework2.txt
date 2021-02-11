@@ -1,0 +1,10 @@
+-Variables: Las variables son utilizadas para guardar un valor de algo y poder llamarlo mas tarde por su nombre. Para crear una variable se usa la abreviatra var seguida de un nombre y se le puede agregar un valor. ej var lugar = direccion o var nombre = ivan
+
+-Strings: Strings es un tipo de dato, este tipo en particular sirve para cajas o lineas de texto, se utiliza encerrando la/s palabra/s entre comillas. Ej var minombre = 'Ivan nicolas'. Tambien existen otros tipos como numbers y booleans. (numbers usa solo numeros y booleans solo sirven para true or false, Verdadero o Falso, 1 o 0)
+
+-Funciones: las funciones sirven para decirle a la aplicacion o web que estamos usando como se va a utilizar la funcion que creemos, para eso se usa "function" seguido de el nombre de la funcion el cual de preferencia deberia ser un nombre que describa lo que hace la misma, y a continuacion entre () y {}. Entre () van a ir los datos o argumentos en base a los que va a trabajar la funcion y entre {} va a ir como se ejecuta la misma.
+El "comando" return sirve para poder sacar en cierto modo los datos que hay dentro de las funciones, esta es la unica forma en que nosotros podemos "devolver" datos de una funcion a la consola.
+
+-Las declaraciones sirven para comparar algo que esta sucediendo dentro del codigo, al usar "if" que es un control de flujo le estamos diciendo a la computadora "Si pasa X cosa entonces dame X resultado o hace X funcion y si no pasa eso dame Y resultado", el "if" tal como lo dice la palabra es condicional y si el codigo que escribimos no corresponde a sus reglas, este mismo no funcionara de la manera esperada.
+
+-Los valores booleanos corresponden a los numeros binarios, estos son 0 y 1, como se menciono anteriormente son un tipo de dato y en el campo de la programacion son reemplazados por "true" o "false"
