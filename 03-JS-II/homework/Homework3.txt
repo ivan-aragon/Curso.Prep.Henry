@@ -1,0 +1,13 @@
+La palabra/funcion 'for' es usada para crear bucles, se utiliza este comando "llamandolo" con la clave for, seguida de () y {}.
+Dentro de los () van a ir tres cosas indispensables, primero se hace una variable y a partir de esta se ejecuta el codigo, seguido de esto un condicional el cual se seguira ejecutando siempre y cuando el resultado sea true y por ultimo una forma de incrementar la variable para que esta se vuelva a repetir hasta tener el resultado que queremos, para incrementar dicha variable se agregaria un ++ al final.
+Los bucles se seguiran repitiendo hasta que el resultado de la operacion de false.
+
+Operadores logicos:
+En esta clase se vieron tres operadores logicos "&&, ||, y !"
+
+El operador && es la abreviatura de "Y" o "and", sirven para agregar mas de una variable a una funcion que nosotros creemos y poder ejecutar varias comparaciones a la vez, de esta forma si uno o ambos elementos a comparar son verdaderos, el codigo se ejecutara correctamente. De lo contrario este codigo no se ejecuta.
+
+El operador || es la abreviatura de "O" o "or", sirve para agregar mas de una variable a una funcion, pero esta vez no hace falta que todos sean correctos para que el codigo se ejecute correctamente, ya que || compara cada variable  que nosotros insertemos "por separado" y con que una o mas sea correcta el codigo se ejecutara bien.
+
+El operador "!" es la abreviatura de "NO" o "NOT", y sirve para que el codigo devuelva lo contrario a lo que nosotros estamos pidiendo, por ejemplo si nostros queremos que nos devuelva que 1 es diferente a 1 se haria de la siguiente forma:
+1 !== 1 .  
