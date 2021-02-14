@@ -107,8 +107,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  return numero % 1 === 0; 
-  //Aca quise usar Math.floor pero no entedi como hacerlo asi que busque la respuesta 
+    if(Number.isInteger(numero)) {
+      return true;
+    }
+    return false;
+  //Aca quise usar Math.floor pero no entedi como hacerlo asi que busque otra forma de solucionarlo 
 }
 
 function fizzBuzz(numero) {
