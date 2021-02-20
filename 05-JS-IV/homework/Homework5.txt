@@ -1,0 +1,24 @@
+Clase 05:
+Objetos: Los objetos son una forma mas organizada de dar valores a ciertos atributos. Se diferencian en los arreglos/arrays la forma en la que se crean, los objetos utilizan algo llamado
+key:value o clave:valor, la clave seria el nombre de lo que querramos definir y valor es el valor que le daremos al mismo. Ademas de esto los objetos pueden tener muchos key:value, los nombres clave son unicos dentro de cada objeto
+aunque pueden haber varias claves con el mismo valor/value. Hay que tener en cuenta que los objetos admiten strings, numeros, booleanos, arrays y funciones dentro del mismo
+Para crear un objeto se define mediante una variable, luego se utilizan las llaves y dentro irian las claves junto con sus valores, cada clave valor debe ir separadas por una ','.
+Por ej: var Ejemplo {
+    key1: value1,
+    clave2: valor2,
+}
+
+Propiedades: Una forma de acceder a las claves que hayan dentro de nuestros objetos es llamarlos con la notacion de puntos, aqui se utiliza el nombre del objeto, seguido de un '.' y luego el nombre de la clave que querramos para acceder a su valor
+Por ej: Ejemplo.key1 
+De esta misma forma se pueden asignar clave:valor nuevo a los objetos, asignandoles el valor que nosotros querramos
+Por ej: Ejemplo.key3 = value3
+
+Metodos: Los metodos son como se conocen a las funciones dentro de los objetos, se puede dar un nombre a una clave nueva y el valor de la misma podria ser una funcion.
+Hay que tener en cuenta que cuando se llame a esta funcion se debe hacer utilizando el nombre clave seguido de los '()'. Por ejemplo si yo tuviese una funcion en un objeto que tenga como clave key4 la llamaria de la siguiente forma.
+Ejemplo.key4();
+
+Bucle for...in: A diferencia de los arreglos, los objetos tienen un bucle distinto, esta es llamada for...in. 
+Para utilizarla se comienza com un for seguido de unos () donde dentro se declara una variable, seguido de un in y el nombre del objeto. Aqui se puede utilizar la variable entre [] para recorrer el objeto en un bucle.
+
+La notacion de puntos vs notacion de corchetes: La notacion de puntos es una forma mas rapida de acceder a las Propiedades de un objeto, pero la desventaja principal que tienen es que es literal y no se pueden usar variables , es decir yo dentro de una variable podria 
+asignar un valor y acceder a esta mediante la notacion de corchetes 
