@@ -1,0 +1,4 @@
+Los arrays son una forma de ordenar o guardar datos en una lista, estos arrays se pueden usar para distintas cosas, como por ejemplo hacer un listado de personas, frutas, alumnos, etc.
+La forma para asignar o crear una nueva lista es mediante una variable a la cual se le asignan los valores dentro de un "[]", los valores que asignemos deben de ir separados por una ','.
+Para agregar y quitar elementos de una lista podriamos usar un metodo llamado .push y .pop. Estos metodos agregan o quitan elementos de un array en el ultimo lugar de la misma. (.push para agregar y .pop para quitar)
+De la misma forma existen otros dos metodos llamados .unshift y .shift que hacen lo mismo que push y pop pero al principio del array.
