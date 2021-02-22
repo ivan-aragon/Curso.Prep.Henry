@@ -1,0 +1,9 @@
+Prototype: Los Prototype hacen referencia a el formato que viene por defecto para cada uno de los objetos, clases, 'tipo', etc. (Cuando hablamos de clases nos referimos a una 'fabrica' de objetos, donde nosotros ingresamos los parametros que van a compartir todos los objetos que creemos en base a estas clases.)
+Al nosotros crear una clase nueva, podemos adjuntarle prototipos que lleven dentro metodos o incluso 'parametros' que quisieramos agregar a las clases, esto nos permitira mas adelante
+crear nuevos objetos que sigan la 'estructura' que tiene nuestro prototipo creado.
+Una de las ventajas que nos dan los Prototype es la funcion de this, esto hace que nosotros podamos tomar como referencia los parametros que definimos previamente y adjuntarselos a nuestro nuevo objeto.
+
+Constructors de clases: Los Constructors o constructores lo que hacen es almacenar los datos que nosotros querramos usar en los objetos que vayamos a crear posteriormente, en cierta forma
+su funcion es la de definir previamente que clase vamos a usar y dentro de la misma se aplican los parametros que van a tener en comun el resto de los objetos, se escriben como su fuesen funciones
+a diferencia que su primer letra debe ser en mayusculas y seguido irian los () y luego las {}, dentro de los parentesis van a ir los parametros y seguido de las llaves sus propiedades.
+Para crear un nuevo objeto siguiendo el constructor de la clase se define como variable solo que se agrega el keyword new seguido del nombre del constrctor.
