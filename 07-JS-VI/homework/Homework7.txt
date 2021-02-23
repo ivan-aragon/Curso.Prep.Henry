@@ -1,0 +1,2 @@
+Callbacks: Los Callbacks son una funcion importante dentro de Javascript, ya que nos permiten pasar una funcion como un argumento para otra funcion, el metodo convencional utilizado
+para las callbacks es el keyword 'cb'. Esta es una manera rapida y mas comoda al momento de programar ya que nos ahorramos de volver a escribir la funcion que querramos usar dentro de otra.
