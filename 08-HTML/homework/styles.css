@@ -1,0 +1,21 @@
+h1 {color:deepskyblue}
+img { width: 400px;}
+#thirdDiv {justify-content: center; align-items: center; height: 700px; width: 500px; background-color: lightslategrey; padding: 50px; border: 2px dotted lightcyan;}
+#spanId {font-size: 18px; margin: 50px;}
+body {background-image: linear-gradient(lavender, lightslategray)}
+div {max-width: 800px; margin: 0 auto;}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.divClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
